@@ -11,12 +11,12 @@ public class Main {
         
         for (int i = 0; i < max; i++) 
         {
-            vetor[i] = Console.readInt("Digite um número:");
+            vetor[i] = i;
         }
                 
         for (int i = 0; i < max; i++) 
         {
-          Console.writeLn("Numeros" + vetor[i]);     
+          Console.writeLn("Numero: " + vetor[i]);     
         }
       
     }
